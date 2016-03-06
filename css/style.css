@@ -1,0 +1,405 @@
+body {
+   /* background-color: LightGray;*/
+    font-family: 'Hind Vadodara', sans-serif;
+    margin:0;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+ul {
+  margin:0;
+  list-style: none;
+  display: -webkit-inline-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.relative {
+    position: relative;
+}
+
+.container-top {
+    width: 100%;
+    padding: 0 47px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container-middle {
+    width: 100%;
+    padding: 0 47px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background-image: url(../images/graph-paper.png);*/
+}
+
+.container-bottom {
+    width: 100%;
+    padding: 0 47px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*div {
+    border: 1px solid Chocolate;
+}
+*/
+
+img {
+	padding-bottom: 12px;
+}
+
+a {
+	font-family: 'Hind Vadodara', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	color: #838994;
+	font-size: 16px;
+}
+
+
+/* Header Styles */
+
+header {
+    padding: 42px 0;
+    border-bottom: 1px solid #EEE;
+}
+
+header .logo-holder .circle-logo {
+    width: 100px;
+    height: 72px;
+    position: relative;
+    line-height: 68px;
+    background: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+header .logo-holder .logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../images/n-logo5.png) no-repeat 0 0;
+    vertical-align: middle;
+}
+
+header .logo-holder .desc {
+    letter-spacing: 1.5px;
+    color: #4d4d4d;
+}
+header .logo-holder .circle-logo, header .logo-holder .desc {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .menu {
+    margin: 0 0 0 450px;
+    font-size: 16px;
+}
+
+header .menu .item-menu .link-menu {
+    display: inline-block;
+    padding: 26px 9px 20px 9px;
+    color: #4d4d4d;
+    border-bottom: 4px solid #92bdc9;
+    margin-right: 4px;
+}
+
+header .menu .item-menu .link-menu:hover {
+    color: #3DAFCA;
+    border-color: #3498B1;
+}
+
+header .contact {
+    margin: 28px 0 0 35px;
+}
+
+header .contact .link-email {
+    margin: 4px 0 0 0;
+    color: gray;
+}
+
+header .contact .link-phone {
+    color: #4d4d4d;
+}
+
+header .social-icons .social-item .link-social {
+    display: inline-block;
+    padding: 32px 0px 20px 13px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+header .social-icons .social-item .link-social:hover {
+    color: #3DAFCA;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+.text-right {
+    text-align: right;
+}
+
+
+.f11 {
+    font-size: 11px;
+}
+
+.headline .t1 .bigger {
+    font-size: 100px;
+    letter-spacing: -7px;
+}
+
+.headline .t1 .smaller {
+    font-size: 60px;
+    letter-spacing: -4px;
+}
+
+.call-out-boxes {
+    position: relative;
+    margin: 73px 0 0 0;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    overflow: hidden;
+}
+
+#main .headline .t1 .icon {
+    color: #7bc14a;
+}
+
+#main {
+    margin: 42px 0 0 0;
+}
+
+#main .call-out-boxes .box-feature.box-green {
+    border-color: #7bc14a;
+}
+
+#main .call-out-boxes .box-feature.box-gray {
+    border-color: #8995A2;
+}
+
+#main .call-out-boxes .box-feature .title {
+    min-height: 50px;
+    letter-spacing: -2px;
+}
+
+#main .call-out-boxes .box-project.box-green {
+    border-color: #7bc14a;
+}
+
+#main .call-out-boxes .box-project.box-gray {
+    border-color: #8995A2;
+}
+
+#main .call-out-boxes .box-project .title {
+    min-height: 50px;
+    letter-spacing: -2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.f13 {
+    font-size: 13px;
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.light {
+    font-family: 'Hind Vadodara',sans-serif;
+    font-weight: 300;
+}
+
+.p-text {
+	font-family: 'PT Serif',serif;
+    font-weight: 400;
+}
+
+.bold {
+    font-family: 'Hind Vadodara',sans-serif;
+    font-weight: 600;
+}
+
+strong {
+    font-family: 'PT Serif',sans-serif;
+    font-weight: 700;
+    color: #888888;
+}
+
+.ml5 {
+    margin-left: 5px!important;
+}
+
+.mt15 {
+    margin-top: 15px!important;
+}
+
+.mt30 {
+    margin-top: 30px!important;
+}
+
+.black-50 {
+    color: #aaaaaa;
+}
+
+.black-70 {
+    color: #4d4d4d;
+    text-align: center;
+}
+
+#main {
+    margin: 42px 0 0 0;
+}
+
+#main .headline .t2 {
+    font-size: 24px;
+    color: gray;
+}
+
+#main .call-out-boxes .box-feature .desc {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#main .call-out-boxes .box-feature .border {
+    width: 1px;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e6e6e6;
+}
+
+#main .call-out-boxes .box-project .desc {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#main .call-out-boxes .box-project .border {
+    width: 1px;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e6e6e6;
+}
+
+#main .call-out-boxes .box-feature {
+    width: 25%;
+    position: relative;
+    padding: 43px;
+    border-top: 5px solid #e6e6e6;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#main .call-out-boxes .box-project {
+    width: 25%;
+    position: relative;
+    padding: 32px;
+    border-top: 5px solid #e6e6e6;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#main .call-out-boxes .box-project {
+    width: 33.333%;
+    position: relative;
+    padding: 43px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.border-img {
+	background-image: url(../images/color-border01.png);
+	background-repeat: repeat-x;
+}
+
+footer .holder-footer {
+    padding: 35px 10px;
+    text-align: center;
+    background: #8995A2;
+}
+
+footer .cols {
+    display: inline-block;
+    width: 100%;
+    color: #FFF;
+}
+
+footer .cols .col.col-1, footer .cols .col.col-2 {
+    padding-right: 80px;
+}
+
+footer .cols .col {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+footer .cols .col .mailto {
+    font-size: 20px;
+}
+footer .cols .col .mailto, footer .cols .col .tel {
+    color: #FFF;
+    letter-spacing: -.5px;
+}
+
+
+ /* Stuff I do not understand */
+
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+Pseudo ::after element
+.clearfix:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
