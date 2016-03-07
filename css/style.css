@@ -200,6 +200,31 @@ header .social-icons .social-item .link-social:hover {
     margin: 42px 0 0 0;
 }
 
+#sub-main .call-out-boxes .box-feature .desc {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#sub-main .call-out-boxes .box-feature .border {
+    width: 1px;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e6e6e6;
+}
+
+#sub-main .call-out-boxes .box-feature {
+    width: 25%;
+    position: relative;
+    padding: 32px;
+    border-top: 5px solid #e6e6e6;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 #sub-main .call-out-boxes .box-feature.box-green {
     border-color: #7bc14a;
 }
@@ -226,12 +251,23 @@ header .social-icons .social-item .link-social:hover {
     letter-spacing: -2px;
 }
 
-#sub-main .call-out-boxes .box-feature .desc {
+#sub-main .call-out-boxes .box-project .desc {
     font-size: 15px;
     line-height: 18px;
 }
 
-#sub-main .call-out-boxes .box-feature .border {
+#sub-main .call-out-boxes .box-project {
+    width: 33.333%;
+    position: relative;
+    padding: 43px;
+    border-top: 5px solid #e6e6e6;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sub-main .call-out-boxes .box-project .border {
     width: 1px;
     height: 200%;
     position: absolute;
@@ -240,31 +276,6 @@ header .social-icons .social-item .link-social:hover {
     background: #e6e6e6;
 }
 
-#sub-main .call-out-boxes .box-project .desc {
-    font-size: 15px;
-    line-height: 18px;
-}
-
-#sub-main .call-out-boxes .box-feature {
-    width: 25%;
-    position: relative;
-    padding: 32px;
-    border-top: 5px solid #e6e6e6;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#sub-main .call-out-boxes .box-project {
-    width: 33.333%;
-    position: relative;
-    padding: 43px;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -360,37 +371,3 @@ footer .cols .col .mailto, footer .cols .col .tel {
     color: #FFF;
     letter-spacing: -.5px;
 }
-
-
- /* Stuff I do not understand */
-
-/*.clearfix:after, .clearfix:before {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-
-.clearfix:after, .clearfix:before {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-
-Pseudo ::after element
-.clearfix:after {
-    clear: both;
-}
-.clearfix:after, .clearfix:before {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-.clearfix:after {
-    clear: both;
-}
-.clearfix:after, .clearfix:before {
-    display: table;
-    content: "";
-    line-height: 0;
-}
-*/
