@@ -20,7 +20,7 @@ li {
     position: relative;
 }
 
-.container-top {
+.container-1 {
     width: 100%;
     padding: 0 47px;
     -webkit-box-sizing: border-box;
@@ -28,7 +28,15 @@ li {
     box-sizing: border-box;
 }
 
-.container-middle {
+.container-2 {
+    width: 100%;
+    padding: 0 47px;
+    box-sizing: border-box;
+    height:220px;
+    /*background-image: url(../images/graph-paper.png);*/
+}
+
+.container-2b {
     width: 100%;
     padding: 0 47px;
     -webkit-box-sizing: border-box;
@@ -37,7 +45,7 @@ li {
     /*background-image: url(../images/graph-paper.png);*/
 }
 
-.container-bottom {
+.container-3 {
     width: 100%;
     padding: 0 47px;
     -webkit-box-sizing: border-box;
@@ -67,6 +75,7 @@ a {
 header {
     padding: 42px 0;
     border-bottom: 1px solid #EEE;
+    overflow: auto;
 }
 
 header .logo-holder .circle-logo {
@@ -174,6 +183,15 @@ header .social-icons .social-item .link-social:hover {
     overflow: hidden;
 }
 
+#main {
+    margin: 42px 0 0 0;
+}
+
+#main .headline .t2 {
+    font-size: 24px;
+    color: gray;
+}
+
 #main .headline .t1 .icon {
     color: #7bc14a;
 }
@@ -182,30 +200,70 @@ header .social-icons .social-item .link-social:hover {
     margin: 42px 0 0 0;
 }
 
-#main .call-out-boxes .box-feature.box-green {
+#sub-main .call-out-boxes .box-feature.box-green {
     border-color: #7bc14a;
 }
 
-#main .call-out-boxes .box-feature.box-gray {
+#sub-main .call-out-boxes .box-feature.box-gray {
     border-color: #8995A2;
 }
 
-#main .call-out-boxes .box-feature .title {
+#sub-main .call-out-boxes .box-feature .title {
     min-height: 50px;
     letter-spacing: -2px;
 }
 
-#main .call-out-boxes .box-project.box-green {
+#sub-main .call-out-boxes .box-project.box-green {
     border-color: #7bc14a;
 }
 
-#main .call-out-boxes .box-project.box-gray {
+#sub-main .call-out-boxes .box-project.box-gray {
     border-color: #8995A2;
 }
 
-#main .call-out-boxes .box-project .title {
+#sub-main .call-out-boxes .box-project .title {
     min-height: 50px;
     letter-spacing: -2px;
+}
+
+#sub-main .call-out-boxes .box-feature .desc {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#sub-main .call-out-boxes .box-feature .border {
+    width: 1px;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e6e6e6;
+}
+
+#sub-main .call-out-boxes .box-project .desc {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#sub-main .call-out-boxes .box-feature {
+    width: 25%;
+    position: relative;
+    padding: 32px;
+    border-top: 5px solid #e6e6e6;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sub-main .call-out-boxes .box-project {
+    width: 33.333%;
+    position: relative;
+    padding: 43px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -266,74 +324,7 @@ strong {
     text-align: center;
 }
 
-#main {
-    margin: 42px 0 0 0;
-}
 
-#main .headline .t2 {
-    font-size: 24px;
-    color: gray;
-}
-
-#main .call-out-boxes .box-feature .desc {
-    font-size: 15px;
-    line-height: 18px;
-}
-
-#main .call-out-boxes .box-feature .border {
-    width: 1px;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #e6e6e6;
-}
-
-#main .call-out-boxes .box-project .desc {
-    font-size: 15px;
-    line-height: 18px;
-}
-
-#main .call-out-boxes .box-project .border {
-    width: 1px;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #e6e6e6;
-}
-
-#main .call-out-boxes .box-feature {
-    width: 25%;
-    position: relative;
-    padding: 43px;
-    border-top: 5px solid #e6e6e6;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#main .call-out-boxes .box-project {
-    width: 25%;
-    position: relative;
-    padding: 32px;
-    border-top: 5px solid #e6e6e6;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#main .call-out-boxes .box-project {
-    width: 33.333%;
-    position: relative;
-    padding: 43px;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .border-img {
 	background-image: url(../images/color-border01.png);
@@ -373,7 +364,7 @@ footer .cols .col .mailto, footer .cols .col .tel {
 
  /* Stuff I do not understand */
 
-.clearfix:after, .clearfix:before {
+/*.clearfix:after, .clearfix:before {
     display: table;
     content: "";
     line-height: 0;
@@ -402,3 +393,4 @@ Pseudo ::after element
     content: "";
     line-height: 0;
 }
+*/
