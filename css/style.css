@@ -30,7 +30,7 @@ li {
 
 .container-2 {
     width: 100%;
-    padding: 0 47px;
+    padding: 0 40px;
     box-sizing: border-box;
     height:220px;
     /*background-image: url(../images/graph-paper.png);*/
@@ -259,12 +259,13 @@ header .social-icons .social-item .link-social:hover {
 #sub-main .call-out-boxes .box-project {
     width: 33.333%;
     position: relative;
-    padding: 43px;
+    padding: 32px;
     border-top: 5px solid #e6e6e6;
     float: left;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #sub-main .call-out-boxes .box-project .border {
@@ -335,7 +336,13 @@ strong {
     text-align: center;
 }
 
-
+p.left {
+    text-align: left;
+    font-family: 'PT Serif',serif;
+    font-weight: 400;
+    color: #aaaaaa;
+    line-height: 1.3em;
+}
 
 .border-img {
 	background-image: url(../images/color-border01.png);
