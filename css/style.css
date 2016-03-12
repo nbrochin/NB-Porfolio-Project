@@ -125,6 +125,11 @@ header .menu .item-menu .link-menu:hover {
     border-color: #3498B1;
 }
 
+header .menu .item-menu .link-menu:active {
+    color: #3DAFCA;
+    border-color: #7AC14B;
+}
+
 header .contact {
     margin: 28px 0 0 35px;
 }
